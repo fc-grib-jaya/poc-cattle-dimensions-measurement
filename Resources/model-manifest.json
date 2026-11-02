@@ -1,0 +1,47 @@
+{
+  "name": "RTMPose-m AP10K",
+  "source": "https://download.openmmlab.com/mmpose/v1/projects/rtmposev1/onnx_sdk/rtmpose-m_simcc-ap10k_pt-aic-coco_210e-256x256-7a041aa1_20230206.zip",
+  "sha256": "1cfd1c86e0d9e5d5f95178bcd95ee9a4e8386a624cd3c57519f27ff58cac7f28",
+  "input": {
+    "input": [
+      "N",
+      3,
+      256,
+      256
+    ]
+  },
+  "outputs": {
+    "simcc_x": [
+      "N",
+      17,
+      512
+    ],
+    "simcc_y": [
+      "N",
+      17,
+      512
+    ]
+  },
+  "preprocessing": {
+    "color": "RGB",
+    "mean": [
+      123.675,
+      116.28,
+      103.53
+    ],
+    "std": [
+      58.395,
+      57.12,
+      57.375
+    ],
+    "bbox_padding": 1.25,
+    "layout": "NCHW",
+    "size": [
+      256,
+      256
+    ]
+  },
+  "simcc_split_ratio": 2,
+  "runtime": "ONNX Runtime iOS 1.20.0",
+  "purpose": "Internal exploratory quadruped baseline; AP10K joints require manual correction to cattle measurement landmarks."
+}

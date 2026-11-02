@@ -1,0 +1,7 @@
+{
+  "fixture": "OpenMMLab animalpose/ca110.jpeg (cat); not included in deliverable",
+  "runtime": "ONNX CPU Linux",
+  "jointsAboveThreshold": 17,
+  "finite": true,
+  "accuracyEvaluated": false
+}

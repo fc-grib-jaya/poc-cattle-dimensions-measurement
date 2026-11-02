@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79B8460769B76AA1E5EEE223 /* onnxruntime in Frameworks */ = {isa = PBXBuildFile; productRef = 301B12236AECE0E042D8E2A3 /* onnxruntime */; };
+		A29A82F566EA1557140FB878 /* Core/MeasurementCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E85860299D74938D7586EB /* Core/MeasurementCore.swift */; };
+		AD67BD8C4A9EA83F6A73120E /* App/CaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51500229C8920CFC516C3A /* App/CaptureService.swift */; };
+		B77648230073B0B2C0D670ED /* App/ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E6602541BD8809A8F0B616 /* App/ReviewModel.swift */; };
+		C36524106C29FDD1F45785AD /* App/HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D703BA3FC6F56BB999D82F /* App/HistoryStore.swift */; };
+		C38467B653D27CF0F7E67C8D /* App/ReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35597CB89DC7C2CA703D736 /* App/ReviewScreen.swift */; };
+		CB2E1373E5D7A06463A3D2EA /* App/PoseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3E40BCB62FC699E37CCC2 /* App/PoseService.swift */; };
+		EA120A36BE2B1EE0D29E1216 /* App/SapiMeasureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89458CE12651E5A461822E /* App/SapiMeasureApp.swift */; };
+		EF4588DF778D8EF08B2296E5 /* App/Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4A3C00464F0167A9ACF8E /* App/Domain.swift */; };
+		F15CCCBE026517DBE4345541 /* App/PhotoCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64222DC961E4AE379C77B3C9 /* App/PhotoCanvas.swift */; };
+		F810F8FC7694198FA3E1530A /* Resources/AnimalPose.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 005107DEA6DA31EA7EDA1F36 /* Resources/AnimalPose.onnx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		005107DEA6DA31EA7EDA1F36 /* Resources/AnimalPose.onnx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Resources/AnimalPose.onnx; sourceTree = "<group>"; };
+		18E85860299D74938D7586EB /* Core/MeasurementCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/MeasurementCore.swift; sourceTree = "<group>"; };
+		33E6602541BD8809A8F0B616 /* App/ReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/ReviewModel.swift; sourceTree = "<group>"; };
+		38A007151ABE87CC01A5B6E9 /* SapiMeasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SapiMeasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E51500229C8920CFC516C3A /* App/CaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/CaptureService.swift; sourceTree = "<group>"; };
+		55D4A3C00464F0167A9ACF8E /* App/Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Domain.swift; sourceTree = "<group>"; };
+		64222DC961E4AE379C77B3C9 /* App/PhotoCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/PhotoCanvas.swift; sourceTree = "<group>"; };
+		93D703BA3FC6F56BB999D82F /* App/HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/HistoryStore.swift; sourceTree = "<group>"; };
+		A35597CB89DC7C2CA703D736 /* App/ReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/ReviewScreen.swift; sourceTree = "<group>"; };
+		AB89458CE12651E5A461822E /* App/SapiMeasureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/SapiMeasureApp.swift; sourceTree = "<group>"; };
+		DEE3E40BCB62FC699E37CCC2 /* App/PoseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/PoseService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B8460769B76AA1E5EEE223 /* onnxruntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4961BEF8E1FCEB9EC35BDB0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18E85860299D74938D7586EB /* Core/MeasurementCore.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CBE7D790BBE2BD0D8B77EF39 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4E51500229C8920CFC516C3A /* App/CaptureService.swift */,
+				55D4A3C00464F0167A9ACF8E /* App/Domain.swift */,
+				93D703BA3FC6F56BB999D82F /* App/HistoryStore.swift */,
+				64222DC961E4AE379C77B3C9 /* App/PhotoCanvas.swift */,
+				DEE3E40BCB62FC699E37CCC2 /* App/PoseService.swift */,
+				33E6602541BD8809A8F0B616 /* App/ReviewModel.swift */,
+				A35597CB89DC7C2CA703D736 /* App/ReviewScreen.swift */,
+				AB89458CE12651E5A461822E /* App/SapiMeasureApp.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		DC76E9F0C0006E8F919E0C51 = {
+			isa = PBXGroup;
+			children = (
+				CBE7D790BBE2BD0D8B77EF39 /* App */,
+				B4961BEF8E1FCEB9EC35BDB0 /* Core */,
+				E5E98B546EE9848A91FF7C1F /* Resources */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5E98B546EE9848A91FF7C1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				005107DEA6DA31EA7EDA1F36 /* Resources/AnimalPose.onnx */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* SapiMeasure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* SapiMeasure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976B52545947CA66FD9EF2A4 /* Build configuration list for PBXNativeTarget "SapiMeasure" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SapiMeasure;
+			packageProductDependencies = (
+				301B12236AECE0E042D8E2A3 /* onnxruntime */,
+			);
+			productName = SapiMeasure;
+			productReference = 38A007151ABE87CC01A5B6E9 /* SapiMeasure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "SapiMeasure" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				id,
+			);
+			mainGroup = DC76E9F0C0006E8F919E0C51;
+			packageReferences = (
+				AE8915D7FFB4EA2DFB6AE075 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */,
+			);
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* SapiMeasure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F810F8FC7694198FA3E1530A /* Resources/AnimalPose.onnx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD67BD8C4A9EA83F6A73120E /* App/CaptureService.swift in Sources */,
+				EF4588DF778D8EF08B2296E5 /* App/Domain.swift in Sources */,
+				C36524106C29FDD1F45785AD /* App/HistoryStore.swift in Sources */,
+				F15CCCBE026517DBE4345541 /* App/PhotoCanvas.swift in Sources */,
+				CB2E1373E5D7A06463A3D2EA /* App/PoseService.swift in Sources */,
+				B77648230073B0B2C0D670ED /* App/ReviewModel.swift in Sources */,
+				C38467B653D27CF0F7E67C8D /* App/ReviewScreen.swift in Sources */,
+				EA120A36BE2B1EE0D29E1216 /* App/SapiMeasureApp.swift in Sources */,
+				A29A82F566EA1557140FB878 /* Core/MeasurementCore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00F209874A1F7309F6DCEAA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1A6EFC2CD0AF63DD14BE0438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MXYL2ADGX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.salman.SapiMeasure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4D8F54E7CBAF670D9F6C230D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MXYL2ADGX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.salman.SapiMeasure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ED8772ADEC3A6C25161BC957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "SapiMeasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8772ADEC3A6C25161BC957 /* Debug */,
+				00F209874A1F7309F6DCEAA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976B52545947CA66FD9EF2A4 /* Build configuration list for PBXNativeTarget "SapiMeasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8F54E7CBAF670D9F6C230D /* Debug */,
+				1A6EFC2CD0AF63DD14BE0438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE8915D7FFB4EA2DFB6AE075 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/microsoft/onnxruntime-swift-package-manager";
+			requirement = {
+				kind = exactVersion;
+				version = 1.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		301B12236AECE0E042D8E2A3 /* onnxruntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE8915D7FFB4EA2DFB6AE075 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */;
+			productName = onnxruntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
